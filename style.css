@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: "Poppins", sans-serif;
+    height: max-content;
+}
+h1{
+    margin: 0;
+    font-weight: 400;
+}
+h2{
+    margin: 0;
+    font-weight: 400;
+    display: inline-block;
+}
+.name{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.vertical {
+    border: 0.5px solid grey;
+    min-height: 100vh;
+}
+.first-name{
+ font-weight: 600;
+ margin: 0%;
+}
+.middle-name{
+    font-weight: 400;
+    margin: 0%;
+}
+.last-name{
+    font-weight: 300;
+    margin: 0%;
+}
+.left-coloum{
+    width: 33%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.right-coloum{
+    width: 65%;
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+ }
+.box{
+    height: 200px;
+    width: 200px;
+}
+#container {
+    height: max-content;
+    width: 99vw;
+    display: flex;
+    box-sizing: content-box;
+    justify-content: space-evenly;
+}
+.green {
+    background: green;
+}
+.orange{
+    background: orange;
+}
+.purple{
+    background: purple;
+}
+.black{
+    background: black;
+}
+.grey{
+    color: grey;
+}
+.white{
+    background: white;
+}
+.red{
+    background: red;
+}
+.blue{
+    background: blue;
+}
+.yellow{
+    background: yellow;
+}
+.address{
+    border-style: solid;
+    border-color: black;
+    align-items: flex-start;
+}
+.info{
+    border-style: solid;
+    border-color: black;
+    align-items: flex-start;
+}
+.tag{
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: small;
+}
+.icon{
+    color: black;
+    font-size: 1.5rem;
+    margin-right: 0.6rem;
+}
+.head{
+    background: lightblue;
+    color: black;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+}
+.na{
+    padding-top: 50px;
+}
